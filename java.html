@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+</head>
+
+
+<!-- 
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-family: Helvetica, sans-serif;
+        font-size: small;
+    }
+
+    th,
+    td {
+        text-align: left;
+        padding: 8px;
+        background-color: rgb(254, 96, 96);
+    }
+
+    th {
+        color: rgb(28, 81, 5);
+    }
+</style> -->
+
+
+<body>
+
+    <!-- <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button> -->
+
+    <!-- <input type="button" value="Display Date" onclick="document.getElementById('demo').innerHTML=Date()"> -->
+
+
+    <!-- <br><br><br> <button onclick="this.innerHTML=Date()">The time is?</button> -->
+
+
+    <!-- <br><br><br> <button onclick="displayDate()">The time is</button> -->
+
+
+    <!-- <p id="demo"></p> -->
+
+    <!-- <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+
+    </script> -->
+
+    <!-- <p id="demo">You cannot break a code line with a \ backslash.</p>
+
+    <script>
+        document.getElementById("demo").innerHTML =
+            "Aas  Hdds"
+    </script> -->
+
+
+    <!-- <p id="demo"></p> -->
+    <!-- 
+    <script>
+        const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+
+        for (i = 0; i <= cars.length - 1; i++) {
+            const result = cars[i]
+
+            document.getElementById("demo").innerHTML = `the: ${result}`;
+            console.log(result);
+
+        }
+
+
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+        document.getElementById("demo").innerHTML = "Hello \
+        Dolly!";
+
+    </script> -->
+    <!-- <p>The highest number is <span id="demo"></span>.</p> -->
+
+
+    <!-- <form>
+        Number: <input id="demo" type="text">
+        <input type="button" value="add 10" onclick="add()">
+
+    </form> -->
+
+
+
+
+    <!-- <form>
+        Name: <input id="nam" required>
+        <button>send</button>
+        <br><br>
+        Number: <input id="num">
+
+        <button type="button" onclick="validnum()">submit</button>
+    </form>
+
+    <p id="demo"></p>
+ -->
+
+    <!-- <h1 id="demo">My Heading 1</h1>
+    <input type="button" value="change color" onclick="document.getElementById('demo').style.color='red'"> -->
+
+
+
+
+    <!-- <form>
+        <input type="text" name="fname" required>
+        <input type="submit" value="Submit">
+    </form> -->
+
+
+
+    <!-- <form>
+        <input type="text" required>
+        <button>send</button>
+    </form> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    <script>
+        const price1 = 5;
+        const price2 = 6;
+        let total = price1 + price2;
+        document.getElementById("demo").innerHTML =
+            "The total is: " + total;
+
+    </script> -->
+
+    <!-- <button onclick="print()">Print this page</button> -->
+
+
+
+
+    <!-- 
+        <h2>This is a heading</h2>
+        
+        <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <button>Click me to hide paragraphs</button>
+-->
+
+    <!-- 
+        <script>
+            $(document).ready(function () {
+                $("button").click(function () {
+                    $("p").hide();
+                });
+            });
+        </script> -->
+
+
+    <!-- 
+            <p id="demo"></p>
+            
+            <h2>With "use strict":</h2>
+            <h3>Using a variable without declaring it, is not allowed.</h3>
+
+            <p>Activate debugging in your browser (F12) to see the error report.</p>
+            
+            <script>
+        "use strict";
+        x = 3.14;  // This will cause an error (x is not defined).
+        document.getElementById("demo").innerHTML = x
+        
+        
+        function add() {
+            
+            let x = +document.getElementById("demo").value
+            x += 10
+            return alert(x)
+        }
+        
+        
+        
+        
+        
+    </script> -->
+
+
+    <!-- <script src="./app.js"></script> -->
+
+
+
+    <!-- <h1 onmouseover="over(this)" onmouseout="out(this)" style="color:#C64A38">world</h1>
+
+    <script>
+
+        over = (x) => x.innerHTML = "hello"
+
+        out = (x) => x.innerHTML = "world"
+    </script> -->
+
+
+
+
+
+    <!-- <h2>JavaScript HTML DOM</h2>
+
+    <p>Hello World!</p>
+
+    <h1>Hello Norway!</h1>
+
+    <p>Click the button to change the color of all p elements.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+        function myFunction() {
+            const myNodelist = document.querySelectorAll("h1");
+            myNodelist.forEach(function (iteam) {
+                iteam.style.color = "yellow";
+            })
+        }
+    </script> -->
+
+
+
+    <!-- <h1>ckwnoewnfonow</h1>
+    <h2>kdqnfwcnononq</h2>
+    <button onclick="myvar = setTimeout(myfunction, 500)">TRY</button>
+    <button ></button>
+    <script>
+
+        function myfunction() {
+            alert('jwfwif')
+        }
+
+    </script> -->
+
+
+    <!-- <input id="d1" type="number" min="100" max="200" required>
+    <button onclick="myFunction()">check</button>
+
+    <p id="demo"></p>
+
+
+    <script>
+        function myFunction() {
+            const x = document.getElementById("d1");
+            if (!x.checkValidity()) {
+                document.getElementById("demo").innerHTML = x.validationMessage
+            } else {
+                document.getElementById("demo").innerHTML = "ok"
+            }
+        }
+    </script> -->
+
+    <!-- 
+    <h2>JavaScript Validation</h2>
+
+    <form>
+        <input type="text" name="fname" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>If you click submit, without filling out the text field,
+        your browser will display an error message.</p>
+ -->
+
+
+
+    <!-- <div id="demo">
+        <h2>The XMLHttpRequest Object</h2>
+        <button type="button" onclick="loadDoc()">Change Content</button>
+    </div>
+
+    <script>
+        function loadDoc() {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                document.getElementById("demo").innerHTML =
+                    this.responseText;
+            }
+            xhttp.open("GET", "ajax_info.txt");
+            xhttp.send();
+        }
+    </script> -->
+
+    <!-- <button onclick="change()">text change</button>
+    <p id="x">hello</p>
+
+    <script>
+        change = () =>
+            document.getElementById("x").innerHTML = "world"
+
+    </script> -->
+
+    <!-- <script src="./app.js"></script>
+
+
+    <p>please enter country name</p>
+    <input type="text" name="country" id="country">
+    <p>
+        <button type="button" onclick="loadData()">load data</button>
+        <button type="button" id="btn-load-data">load data</button>
+    </p>
+
+    capital is: <span id="capital"></span>
+
+
+    <script>
+        function loadData() {
+            var country = document.getElementById("country").value
+
+            var xhttp = new XMLHttpRequest()
+
+            xhttp.onreadystatechange = function () {
+                if (xhttp.readyState === 4 && this.status === 200) {
+                    var responseData = xhttp.responseText
+                    var jsonData = JSON.parse(responseData)
+                    var capital = jsonData[0].capital
+                    document.getElementById("capital").innerHTML = capital
+                }
+            }
+            xhttp.open("GET", "https://restcountries.com/v3.1/name/" + country + "?fullText=true", true)
+            xhttp.send()
+        }
+    </script> -->
+
+
+
+
+
+
+
+
+
+    <!-- <div id="demo">
+        <p>Let AJAX change this text.</p>
+        <button type="button" onclick="loadDoc()">Change Content</button>
+    </div> -->
+
+    <!-- <script>
+
+        function loadDoc() {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                document.getElementById("demo").innerHTML = this.responseText;
+            }
+            xhttp.open("GET", "ajax_info.txt");
+            xhttp.send();
+        }
+
+
+    </script> -->
+
+
+
+
+    <!-- 
+    <button onclick="load()">get get get get</button>
+    <br><br>
+    <table id="demo"></table>
+
+    <script>
+
+        function load() {
+
+            const xhttp = new XMLHttpRequest();
+
+            xhttp.onload = function () {
+
+                document.getElementById("table").innerHTML = myFunction(this);
+
+            }
+            xhttp.open("GET", "cd_catalog.xml");
+            xhttp.send();
+        }
+        function myFunction(xml) {
+            const xmlDoc = xml.responseXML;
+
+            const x = xmlDoc.getElementsByTagName("CD");
+
+            let table = "<tr><th>Artist</th><th>Title</th><th>COMPANY</th><th>PRICE</th></tr>";
+
+            for (let i = 0; i < x.length; i++) {
+                table +=
+                    "<tr><td>" +
+                    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
+                    "</td></tr>";
+            }
+            document.getElementById("demo").innerHTML = table;
+        }
+    </script> -->
+
+
+
+    <!-- 
+    <h2>The XMLHttpRequest Object</h2>
+
+    <form action="">
+        <select name="customers" onchange="showCustomer(this.value)">
+            <option value="">Select a customer:</option>
+            <option value="ALFKI">Alfreds Futterkiste</option>
+            <option value="NORTS ">North/South</option>
+            <option value="WOLZA">Wolski Zajazd</option>
+        </select>
+    </form>
+    <br>
+    <div id="txtHint">Customer info will be listed here...</div>
+
+    <script>
+        function showCustomer(str) {
+            if (str == "") {
+                document.getElementById("txtHint").innerHTML = "";
+                return;
+            }
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+            xhttp.open("GET", "getcustomer.php?q=" + str);
+            xhttp.send();
+        }
+    </script>
+ -->
+
+
+
+
+
+    <button onclick="document.getElementById('myimage').src ='pic_bulbon.gif' ">on bulb</button>
+
+    <img id="myimage" src="pic_bulboff.gif">
+
+    <button onclick="document.getElementById('myimage').src ='pic_bulboff.gif' ">off bulb</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
